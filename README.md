@@ -4,3 +4,19 @@
 * CommonJS的模块化方式
 * AMD的模块化方式
   * 引用的模块会打包成一个单独的模块
+  
+---
+#### webpack.config.js配置
+
+```js
+module.exports = {
+    entry: {
+        app: './app.js' // chunk name: 路径需要带上./
+    },
+    output: {
+        filename: '[name].[hash:5].js'
+    }
+}
+```
+
+* 使用AMD定义的模块会生成*.hash.js文件, 单独打包
