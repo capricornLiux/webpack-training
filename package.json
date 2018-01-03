@@ -1,0 +1,26 @@
+{
+  "name": "webpack-training",
+  "version": "1.0.0",
+  "description": "learn webpack",
+  "main": "0.fb72b.js",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.36",
+    "babel-loader": "^8.0.0-beta.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0-beta.36"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capricornLiux/webpack-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capricornLiux/webpack-training/issues"
+  },
+  "homepage": "https://github.com/capricornLiux/webpack-training#readme"
+}
