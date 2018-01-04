@@ -23,8 +23,9 @@ module.exports = {
                                 // 指定浏览器/ node的版本/ 环境等等
                                 targets: {
                                     // 指定浏览器的版本, 占有率, 最新的2个版本等, browserlist, can i use上面的数据
-                                    browsers: ['> 1%', 'last 2 versions']
+                                    // browsers: ['> 1%', 'last 2 versions']
                                     // chrome: '52'
+                                    browsers: ['last 2 versions']
                                 }
                             }]
                         ]
