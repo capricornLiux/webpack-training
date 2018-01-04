@@ -14,7 +14,9 @@
 // console.log('minus(12,5)=', minus(12, 5));
 
 // 使用babel-polyfill进行转换
-import 'babel-polyfill'
+// import 'babel-polyfill'
+
+// 使用runtime-transform进行转换
 
 let func = ()=>{}
 

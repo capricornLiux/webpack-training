@@ -113,3 +113,22 @@ module.exports = {
   * 安装插件 ```npm install babel-plugin-transform-runtime --save-dev```
   * 安装环境 ```npm install babel-runtime --save```
   * 使用:项目的根目录下创建.barbelrc文件, 配置这个文件
+  
+---
+### 使用局部垫片
+
+* 配置.babelrc
+```json
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": ["last 2 versions"]
+      }
+    }]
+  ],
+  "plugins": ["transform-runtime"]
+}
+```
+
+**注意这时候安装的应该是@babel/runtime, 因为babel-loader, babel-core安装的都是最新**
